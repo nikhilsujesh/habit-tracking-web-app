@@ -135,3 +135,8 @@ footer {
     border-top-left-radius: 5px; /* Match border radius of habit card */
     border-top-right-radius: 5px; /* Match border radius of habit card */
 }
+.add-habit-btn span {
+    font-size: 3rem;
+    line-height: 200px; /* Vertically center the plus sign */
+    color: #555;
+}
