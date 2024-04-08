@@ -76,3 +76,64 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+/* Add styles for habit cards */
+.habit-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 200px; /* Set width to create square-shaped boxes */
+    height: 200px; /* Set height to match width for square-shaped boxes */
+    display: inline-block; /* Display habit cards in a row */
+    vertical-align: top; /* Align habit cards to the top */
+    margin-right: 20px; /* Add margin between habit cards */
+    text-align: center; /* Center-align text */
+}
+
+/* Adjust text styles for habit cards */
+.habit-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.habit-card p {
+    font-size: 1rem;
+}
+/* Adjust styles for habit cards */
+/* Adjust styles for habit cards */
+.habit-card {
+    position: relative; /* Set position to relative */
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Adjust styles for habit card images */
+.habit-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Adjust styles for habit card header */
+.habit-card h3 {
+    position: absolute; /* Set position to absolute */
+    top: 10px; /* Adjust top position */
+    left: 0; /* Align header to the left */
+    right: 0; /* Align header to the right */
+    margin: 0;
+    padding: 0 10px; /* Add padding to improve readability */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
+    border-top-left-radius: 5px; /* Match border radius of habit card */
+    border-top-right-radius: 5px; /* Match border radius of habit card */
+}
