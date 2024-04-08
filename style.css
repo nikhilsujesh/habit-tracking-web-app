@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('foto1.jpg');
+    background-image: url('hd.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -141,4 +141,13 @@ footer {
     font-size: 3rem;
     line-height: 200px; /* Vertically center the plus sign */
     color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
